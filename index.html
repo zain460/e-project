@@ -1,0 +1,1314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shales pizazzz</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+	<link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <style>
+	.download-menu {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.download-btn {
+    display: inline-block;
+    background-color: #fbc02d; /* Yellow color */
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: none;
+}
+
+.download-btn:hover {
+    background-color: #ffa000; /* Darker yellow on hover */
+}
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  .search-bar input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px 0 0 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+
+  .search-bar input[type="text"]:focus {
+    border-color: #f39c12;
+    /* Dark orange on focus */
+  }
+
+  .search-bar button {
+    padding: 10px 20px;
+    border: 2px solid #f39c12;
+    background-color: #f39c12;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .search-bar button:hover {
+    background-color: #e67e22;
+    /* Slightly darker orange on hover */
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0, 255, 0, 0.8);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 0 0 5px 5px;
+  }
+
+  .slide:hover .overlay {
+    opacity: 1;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .city-info {
+    margin-top: 20px;
+    display: none;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .city-info.active {
+    display: block;
+  }
+
+  .city-info h3 {
+    font-weight: 600;
+    color: #333;
+  }
+
+  .city-info p {
+    font-size: 16px;
+  }
+  </style>
+  <body>
+  	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+		      <a class="navbar-brand" href="index.html"><span class="flaticon-pizza-1 mr-1"></span>Shale<br><small>pizazzz</small></a>
+		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+		        <span class="oi oi-menu"></span> Menu
+		      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
+	          <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+			  <li class="nav-item"><a href="location.html" class="nav-link">Locations</a></li>
+	        </ul>
+	      </div>
+		  </div>
+	  </nav>
+    <!-- END nav -->
+
+    <section class="home-slider owl-carousel img" style="background-image: url(images/bg_3.jpg);">
+      <div class="slider-item">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text align-items-center" data-scrollax-parent="true">
+
+            <div class="col-md-6 col-sm-12 ftco-animate">
+            	<span class="subheading">Delicious</span>
+              <h1 class="mb-4">Italian Cuizine</h1>
+              <p class="mb-4 mb-md-5">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+            </div>
+            <div class="col-md-6 ftco-animate">
+            	<img src="images/bg_1.png" class="img-fluid" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-item">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text align-items-center" data-scrollax-parent="true">
+
+            <div class="col-md-6 col-sm-12 order-md-last ftco-animate">
+            	<span class="subheading">Crunchy</span>
+              <h1 class="mb-4">Italian Pizza</h1>
+              <p class="mb-4 mb-md-5">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+            </div>
+            <div class="col-md-6 ftco-animate">
+            	<img src="images/bg_2.png" class="img-fluid" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-item" style="background-image: url(images/bg_3.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
+
+            <div class="col-md-7 col-sm-12 text-center ftco-animate">
+            	<span class="subheading">Welcome</span>
+              <h1 class="mb-4">We cooked your desired Pizza Recipe</h1>
+              <p class="mb-4 mb-md-5">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+	<!-- about -->
+<section class="about">
+    <section class="ftco-intro">
+    	<div class="container-wrap">
+    		<div class="wrap d-md-flex">
+	    		<div class="info">
+	    			<div class="row no-gutters">
+	    				<div class="col-md-4 d-flex ftco-animate">
+	    					<div class="icon"><span class="icon-phone"></span></div>
+	    					<div class="text">
+	    						<h3>000 (123) 456 7890</h3>
+	    						<p>A small river named Duden flows</p>
+	    					</div>
+	    				</div>
+	    				<div class="col-md-4 d-flex ftco-animate">
+	    					<div class="icon"><span class="icon-my_location"></span></div>
+	    					<div class="text">
+	    						<h3>198 West 21th Street</h3>
+	    						<p>Suite 721 New York NY 10016</p>
+	    					</div>
+	    				</div>
+	    				<div class="col-md-4 d-flex ftco-animate">
+	    					<div class="icon"><span class="icon-clock-o"></span></div>
+	    					<div class="text">
+	    						<h3>Open Monday-Friday</h3>
+	    						<p>8:00am - 9:00pm</p>
+	    					</div>
+	    				</div>
+	    			</div>
+	    		</div>
+	    		<div class="social d-md-flex pl-md-5 p-4 align-items-center">
+	    			<ul class="social-icon">
+              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+            </ul>
+	    		</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="ftco-about d-md-flex">
+    	<div class="one-half img" style="background-image: url(images/about.jpg);"></div>
+    	<div class="one-half ftco-animate">
+        <div class="heading-section ftco-animate ">
+          <h2 class="mb-4">Welcome to <span class="flaticon-pizza">Shale Pizzazzz</span> A Restaurant</h2>
+        </div>
+        <div>
+  				<p>Welcome to Shale Pizza A Restaurant, your ultimate destination for an unforgettable pizza experience. Here, we bring together the finest, freshest ingredients and time-honored recipes to create mouthwatering pizzas that are sure to satisfy every craving. From classic favorites like Margherita and Pepperoni to our innovative, one-of-a-kind specialty pies, each dish is made with love and a commitment to quality. Whether you're joining us for a casual night out with friends, a family celebration, or a cozy meal for two, we offer a warm, welcoming atmosphere where great food and great company come together. Come for the pizza, stay for the experience—at Pizza A Restaurant, every bite is a taste of happiness.</p>
+  			</div>
+    	</div>
+    </section>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+			<div class="col-md-7 heading-section ftco-animate text-center">
+			  <h2 class="mb-4">Our Chef</h2>
+			  <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
+			  <p class="mt-5">Our talented chefs at Shale Pizazzz bring passion, creativity, and culinary expertise to every pizza, ensuring each bite is a masterpiece crafted with love and flair.</p>
+			</div>
+		  </div>
+		  <div class="row">
+			  <div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
+				  <div class="staff">
+						<div class="img mb-4" style="background-image: url(images/person_1.jpg);"></div>
+						<div class="info text-center">
+							<h3><a href="teacher-single.html">Chef Zahid Iqbal </a></h3>
+							<span class="position"> Specialist</span>
+							<div class="text">
+							  <p>Known for his innovative pizza creations, Chef Zahid has worked with several top-tier restaurants across Pakistan. His work, especially with wood-fired and gourmet pizzas, has earned him a strong reputation in Karachi and Lahore.</p>
+						  </div>
+						</div>
+				  </div>
+			  </div>
+			  <div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
+				  <div class="staff">
+						<div class="img mb-4" style="background-image: url(images/person_2.jpg);"></div>
+						<div class="info text-center">
+							<h3><a href="teacher-single.html">Chef Mujeeb-ur-Rehman</a></h3>
+							<span class="position"> Specialist</span>
+							<div class="text">
+							  <p> Known for bringing a fusion of Pakistani flavors to Italian dishes, Chef Mujeeb’s pizzas are celebrated for their unique taste. His blend of traditional spices with Italian ingredients has made his pizzas very popular, particularly in Islamabad.</p>
+						  </div>
+						</div>
+				  </div>
+			  </div>
+			  <div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
+				  <div class="staff">
+						<div class="img mb-4" style="background-image: url(images/person_3.jpg);"></div>
+						<div class="info text-center">
+							<h3><a href="teacher-single.html">Chef Shireen Anwar</a></h3>
+							<span class="position"></span>
+							<div class="text">
+							  <p>A well-known chef in Pakistan with a vast following, Chef Shireen is celebrated for her variety of pizza recipes, from traditional to desi-style. She has a unique way of teaching, often seen on television, inspiring home cooks to recreate her pizzas.</p>
+						  </div>
+						</div>
+				  </div>
+			  </div>
+			  <div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
+				  <div class="staff">
+						<div class="img mb-4" style="background-image: url(images/person_4.jpg);"></div>
+						<div class="info text-center">
+							<h3><a href="teacher-single.html">Gorden Ramsey </a></h3>
+							<span class="position">Specialist</span>
+							<div class="text">
+							  <p> is a renowned British chef, restaurateur, and television personality, famous worldwide for his culinary expertise and intense, passionate personality. Known for his high standards and no-nonsense approach, Ramsay has built a culinary empire that spans top-rated restaurants, numerous TV shows, and a series of best-selling cookbooks.</p>
+						  </div>
+						</div>
+				  </div>
+			  </div>
+		  </div>
+		</div>
+	  </section>
+	</section>
+	<!-- services -->
+	<section class="services">
+    <section class="ftco-section ftco-services">
+    	<div class="overlay"></div>
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+            <h2 class="mb-4">Our Services</h2>
+            <p>Our restaurant offers exceptional services, including dine-in, takeout, and fast delivery, ensuring a convenient and enjoyable dining experience for every guest.</p>
+          </div>
+        </div>
+    		<div class="row">
+          <div class="col-md-4 ftco-animate">
+            <div class="media d-block text-center block-6 services">
+              <div class="icon d-flex justify-content-center align-items-center mb-5">
+              	<span class="flaticon-diet"></span>
+              </div>
+              <div class="media-body">
+                <h3 class="heading">Healthy Foods</h3>
+                <p>Our restaurant serves a variety of delicious, wholesome dishes made with fresh, healthy ingredients to nourish your body and satisfy your cravings..</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-4 ftco-animate">
+            <div class="media d-block text-center block-6 services">
+              <div class="icon d-flex justify-content-center align-items-center mb-5">
+              	<span class="flaticon-bicycle"></span>
+              </div>
+              <div class="media-body">
+                <h3 class="heading">Fastest Delivery</h3>
+                <p>Our restaurant offers fast delivery, bringing your favorite meals straight to your door in no time..</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-4 ftco-animate">
+            <div class="media d-block text-center block-6 services">
+              <div class="icon d-flex justify-content-center align-items-center mb-5"><span class="flaticon-pizza-1"></span></div>
+              <div class="media-body">
+                <h3 class="heading">Original Recipes</h3>
+                <p>Our restaurant takes pride in serving unique, original recipes crafted with authentic ingredients to deliver an unforgettable dining experience.</p>
+              </div>
+            </div>    
+          </div>
+        </div>
+    	</div>
+    </section>
+</section>
+		<!-- menue -->
+<section class="menu">
+	<section class="ftco-section">
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+            <h2 class="mb-4">Our Menu</h2>
+            <p>Our menu features a wide range of mouthwatering pizzas, appetizers, and fresh salads, all crafted with the finest ingredients to satisfy every craving.</p>
+          </div>
+        </div>
+		<div class="download-menu">
+			<a href="Orange and Black Fast Food Menu.pdf" download class="download-btn">Download Menu</a>
+		</div>
+    	</div>
+		<br>
+    	<div class="container-wrap">
+    		<div class="row no-gutters d-flex">
+    			<div class="col-lg-4 d-flex ftco-animate">
+    				<div class="services-wrap d-flex">
+    					<a href="#" class="img" style="background-image: url(images/pizza-1.jpg);"></a>
+    					<div class="text p-4">
+    						<h3>Italian Pizza</h3>
+    						<p>Delight in authentic Italian pizza, crafted with a thin, crispy crust, fresh mozzarella, zesty tomato sauce, and a simple yet exquisite blend of classic toppings.
+							</p>
+    						<p class="price"><span>$30.00
+							</span> </p>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-4 d-flex ftco-animate">
+    				<div class="services-wrap d-flex">
+    					<a href="#" class="img" style="background-image: url(images/pizza-2.jpg);"></a>
+    					<div class="text p-4">
+    						<h3>Greek Pizza</h3>
+    						<p>Savor the bold flavors of Greek pizza, topped with tangy feta, Kalamata olives, fresh tomatoes, and a drizzle of olive oil on a perfectly baked crust.
+							</p>
+    						<p class="price"><span>$30.00
+							</span> </p>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-4 d-flex ftco-animate">
+    				<div class="services-wrap d-flex">
+    					<a href="#" class="img" style="background-image: url(images/pizza-3.jpg);"></a>
+    					<div class="text p-4">
+    						<h3>Caucasian Pizza</h3>
+    						<p>Indulge in a delicious Caucasian pizza, featuring a creamy white sauce, rich cheeses, and a savory blend of premium toppings for a unique and flavorful experience.
+							</p>
+    						<p class="price"><span>$40.00</span></p>
+    					</div>
+    				</div>
+    			</div>
+
+    			<div class="col-lg-4 d-flex ftco-animate">
+    				<div class="services-wrap d-flex">
+    					<a href="#" class="img order-lg-last" style="background-image: url(images/pizza-4.jpg);"></a>
+    					<div class="text p-4">
+    						<h3>American Pizza</h3>
+    						<p>Enjoy the perfect slice of American pizza, featuring a crispy crust, rich sauce, and a variety of delicious toppings to satisfy every craving.
+							</p>
+    						<p class="price"><span>$20.00</span> </p>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-4 d-flex ftco-animate">
+    				<div class="services-wrap d-flex">
+    					<a href="#" class="img order-lg-last" style="background-image: url(images/pizza-5.jpg);"></a>
+    					<div class="text p-4">
+    						<h3>Tomatoe Pie</h3>
+    						<p>Experience the savory goodness of Tomato Pie, with a thick, golden crust topped with a rich, herbed tomato sauce and a generous layer of melted cheese.
+							</p>
+    						<p class="price"><span>$40.00</span></p>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-4 d-flex ftco-animate">
+    				<div class="services-wrap d-flex">
+    					<a href="#" class="img order-lg-last" style="background-image: url(images/pizza-6.jpg);"></a>
+    					<div class="text p-4">
+    						<h3>Margherita</h3>
+    						<p>Go back to it all again with classic cheese and tomato base.</p>
+    						<p class="price"><span>$30.00
+							</span> </p>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-3 mt-5 pt-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h2 class="mb-4">Our Menu Pricing</h2>
+            <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
+            <p class="mt-5">Our menu offers a variety of delicious pizzas and dishes at competitive prices, ensuring there's something for every budget without compromising on quality or taste.</p>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-6">
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/pizza-1.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Italian Pizza</span></h3>
+	        				<span class="price">$30.00</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>Delight in authentic Italian pizza, crafted with a thin, crispy crust, fresh mozzarella, zesty tomato sauce, and a simple yet exquisite blend of classic toppings.</p>
+	        			</div>
+        			</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/pizza-2.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Hawaiian Pizza</span></h3>
+	        				<span class="price">$29.00</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>Enjoy the tropical fusion of sweet pineapple, savory ham, and melted cheese on a perfectly baked crust with our Hawaiian pizza.</p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/pizza-3.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Greek Pizza</span></h3>
+	        				<span class="price">$20.00</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>Savor the bold flavors of Greek pizza, topped with tangy feta, Kalamata olives, fresh tomatoes, and a drizzle of olive oil on a perfectly baked crust.</p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/pizza-4.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Bacon Crispy Thins</span></h3>
+	        				<span class="price">$20.00</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>Crunch into our Bacon Crispy Thins, featuring crispy, savory bacon on a thin, perfectly baked crust for a satisfying, flavorful bite.</p>
+	        			</div>
+	        		</div>
+        		</div>
+        	</div>
+
+        	<div class="col-md-6">
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/pizza-5.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Hawaiian Special</span></h3>
+	        				<span class="price">$49.91</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>Indulge in our Hawaiian Special, a mouthwatering blend of sweet pineapple, savory ham, and melted cheese, all on a perfectly baked crust for a tropical twist.
+							</p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/pizza-6.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Ultimate Overload</span></h3>
+	        				<span class="price">$20.00</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>Dive into the Ultimate Overload, a pizza stacked high with layers of premium meats, melted cheeses, and a medley of bold toppings for the ultimate flavor explosion.</p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/pizza-7.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Bacon Pizza</span></h3>
+	        				<span class="price">$20.00</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>Indulge in our Beacon Pizza, featuring a delicious combination of crispy bacon, savory cheeses, and a drizzle of rich sauce on a perfectly baked crust.</p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/pizza-8.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Ham &amp; Pineapple</span></h3>
+	        				<span class="price">$20.00</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>A small river named Duden flows by their place and supplies</p>
+	        			</div>
+	        		</div>
+        		</div>
+        	</div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-menu">
+    	<div class="container-fluid">
+    		<div class="row d-md-flex">
+	    		<div class="col-lg-4 ftco-animate img f-menu-img mb-5 mb-md-0" style="background-image: url(images/about.jpg);">
+	    		</div>
+	    		<div class="col-lg-8 ftco-animate p-md-5">
+		    		<div class="row">
+		          <div class="col-md-12 nav-link-wrap mb-5">
+		            <div class="nav ftco-animate nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+		              <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Pizza</a>
+
+		              <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Garlic Bread
+					</a>
+
+		              <a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">Pizza Sandwiches
+					</a>
+
+		              <a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false">Dessertes
+					</a>
+		            </div>
+		          </div>
+		          <div class="col-md-12 d-flex align-items-center">
+		            
+		            <div class="tab-content ftco-animate" id="v-pills-tabContent">
+
+		              <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+		              	<div class="row">
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pizza-1.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">HOT STUFF</a></h3>
+		              					<p>For those who like it Hot, Green Chilies, Beef, Onions & Tomatoes.</p>
+		              					<p class="price"><span>$30.00
+										</span></p>
+		              					<p></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pizza-2.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">CLASSIC PEPPERONI</a></h3>
+		              					<p>One of our all-time specialties. A meaty feast of double pepperoni, mozzarella cheese and tomato sauce.</p>
+		              					<p class="price"><span>$40.00
+										</span></p>
+		              					<p></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pizza-3.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">VERY VEGGIE</a></h3>
+		              					<p>A colorful medley of tomatoes, onions, mushrooms, black olives and green peppers.</p>
+		              					<p class="price"><span>$30.00
+										</span></p>
+		              					<p></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+
+		              <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
+		                <div class="row">
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/G\ image\ 2.png);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">BBQ BREAD
+										</a></h3>
+		              					<p>Garlic Bread With BBQ Cheese.
+										  </p>
+		              					<p class="price"><span>$25.00
+										</span></p>
+		              					<p></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/G\ image\ 3.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">SPICY GARLIC BREAD
+										</a></h3>
+		              					<p>Garlic Bread With Cheese, Red Chilli & Green Chilli.
+
+										  </p>
+		              					<p class="price"><span>$20.00
+										</span></p>
+		              					<p></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/G\ image\ 5.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">GARLIC BREAD ROLL
+										</a></h3>
+		              					<p>Cheese toasted Roll Topping of Mint.
+										  </p>
+		              					<p class="price"><span>$30.00
+										</span></p>
+		              					<p></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+
+		              <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
+		                <div class="row">
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/S\ image\ 5.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">CHICKEN CAESAR SANDWICH
+										</a></h3>
+		              					<p>New Flavour With New Taste of Chesse & Garlic Bread.
+										  </p>
+		              					<p class="price"><span>$30.00
+										</span></p>
+		              					<p></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/S\ image\ 4.png);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">GRILLED CHEESE SANDWICH
+										</a></h3>
+		              					<p>Chesse sandwich With Tomatos & Salad Leaves.
+										  </p>
+		              					<p class="price"><span>$40.00
+										</span></p>
+		              					<p></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/S\ image\ 8.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">CHEESE CLUB SANDWICH
+										</a></h3>
+		              					<p>Club Sandwich with Tomatos Topping.
+										  </p>
+		              					<p class="price"><span>$30.00
+										</span></p>
+		              					<p></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+
+		              <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
+		                <div class="row">
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/D\ image\ 3.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">BROWNIE CAKE POP
+										</a></h3>
+		              					<p>Cake Crums WITH multi Chips
+
+										  </p>
+		              					<p class="price"><span>$20.00
+										</span></p>
+		              					<p></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/D\ image\ 9.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">CHOCOLATE CUP CAKE
+										</a></h3>
+		              					<p>Chocolate Cups topping of chips.
+										  </p>
+		              					<p class="price"><span>$30.00
+										</span></p>
+		              					<p></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/D\ image\ 6.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">CHOCOLATE TRUFFLE CAKE
+										</a></h3>
+		              					<p>Cake of Chocolate Lava.
+
+										  </p>
+		              					<p class="price"><span>$30.00
+										</span></p>
+		              					<p></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+    	</div>
+    </section>
+</section>
+
+    <section class="ftco-gallery">
+    	<div class="container-wrap">
+    		<div class="row no-gutters">
+					<div class="col-md-3 ftco-animate">
+						<a href="#" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-1.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-search"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="#" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-2.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-search"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="#" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-3.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-search"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="#" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-4.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-search"></span>
+    					</div>
+						</a>
+					</div>
+        </div>
+    	</div>
+    </section>
+
+
+		<section class="ftco-counter ftco-bg-dark img" id="section-counter" style="background-image: url(images/bg_2.jpg);" data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+      <div class="container">
+        <div class="row justify-content-center">
+        	<div class="col-md-10">
+        		<div class="row">
+		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		              	<div class="icon"><span class="flaticon-pizza-1"></span></div>
+		              	<strong class="number" data-number="100">0</strong>
+		              	<span>Pizza Branches</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		              	<div class="icon"><span class="flaticon-medal"></span></div>
+		              	<strong class="number" data-number="85">0</strong>
+		              	<span>Number of Awards</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		              	<div class="icon"><span class="flaticon-laugh"></span></div>
+		              	<strong class="number" data-number="10567">0</strong>
+		              	<span>Happy Customer</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		              	<div class="icon"><span class="flaticon-chef"></span></div>
+		              	<strong class="number" data-number="900">0</strong>
+		              	<span>Staff</span>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+            <h2 class="mb-4">Recent from blog</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry align-self-stretch">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+              </a>
+              <div class="text py-4 d-block">
+              	<div class="meta">
+                  <div><a href="#">Sept 10, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mt-2"><a href="#">The Delicious Pizza</a></h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry align-self-stretch">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+              </a>
+              <div class="text py-4 d-block">
+              	<div class="meta">
+                  <div><a href="#">Sept 10, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mt-2"><a href="#">The Delicious Pizza</a></h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry align-self-stretch">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+              </a>
+              <div class="text py-4 d-block">
+              	<div class="meta">
+                  <div><a href="#">Sept 10, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mt-2"><a href="#">The Delicious Pizza</a></h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- cont -->
+	<section class="contact">
+	<section class="ftco-section contact-section">
+		<div class="container mt-5">
+		  <div class="row block-9">
+					  <div class="col-md-4 contact-info ftco-animate">
+						  <div class="row">
+							  <div class="col-md-12 mb-4">
+					<h2 class="h4">Contact Information</h2>
+				  </div>
+				  <div class="col-md-12 mb-3">
+					<p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+				  </div>
+				  <div class="col-md-12 mb-3">
+					<p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+				  </div>
+				  <div class="col-md-12 mb-3">
+					<p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+				  </div>
+				  <div class="col-md-12 mb-3">
+					<p><span>Website:</span> <a href="#">yoursite.com</a></p>
+				  </div>
+						  </div>
+					  </div>
+					  <div class="col-md-1"></div>
+			<div class="col-md-6 ftco-animate">
+			  <form action="#" class="contact-form">
+				  <div class="row">
+					  <div class="col-md-6">
+					  <div class="form-group">
+						<input type="text" class="form-control" placeholder="Your Name" required>
+					  </div>
+				  </div>
+				  <div class="col-md-6">
+					  <div class="form-group">
+						<input type="email" class="form-control" placeholder="Your Email" required>
+					  </div>
+					  </div>
+				</div>
+				<div class="form-group">
+				  <input type="text" class="form-control" placeholder="Subject" required>
+				</div>
+				<div class="form-group">
+				  <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
+				</div>
+				<div class="form-group">
+				  <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+				</div>
+			  </form>
+			</div>
+		  </div>
+		</div>
+	  </section>
+  
+	  <div id="map" style="width: 100%; height: 500px;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4487.170967531921!2d67.02166607617295!3d24.867174977924943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e6b1566c46f%3A0x65318f4eb62c7aa8!2sAptech%20Computer%20Education%20Garden%20Center!5e1!3m2!1sen!2s!4v1732089660084!5m2!1sen!2s" style="border:0; width: 100%; height: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+	  <div class="search-bar">
+		<input type="text" id="citySearchInput" placeholder="Enter city name...">
+		<button onclick="searchCity()">Search</button>
+	  </div>
+	</section>
+	<!-- loc -->
+	<section class="location">
+	  <div class="location">
+		<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+		  <div class="carousel-inner">
+			<div class="carousel-item active">
+			  <div class="card-wrapper container-sm d-flex justify-content-around">
+				<div class="card" style="width: 18rem;">
+				  <img src="images/SUKKUR.jpg" class="card-img-top" alt="Sukkur">
+				  <div class="card-body">
+					<h5 class="card-title">Sukkur</h5>
+				  </div>
+				</div>
+				<div class="card" style="width: 18rem;">
+				  <img src="images/Rawalpindi.jpg" class="card-img-top" alt="Rawalpindi">
+				  <div class="card-body">
+					<h5 class="card-title">Rawalpindi</h5>
+				  </div>
+				</div>
+				<div class="card" style="width: 18rem;">
+				  <img src="images/Sialkot.jpg" class="card-img-top" alt="Sialkot">
+				  <div class="card-body">
+					<h5 class="card-title">Sialkot</h5>
+				  </div>
+				</div>
+			  </div>
+			</div>
+  
+			<div class="carousel-item">
+			  <div class="card-wrapper container-sm d-flex justify-content-around">
+				<div class="card" style="width: 18rem;">
+				  <img src="images/Multan.jpg" class="card-img-top" alt="Multan">
+				  <div class="card-body">
+					<h5 class="card-title">Multan</h5>
+				  </div>
+				</div>
+				<div class="card" style="width: 18rem;">
+				  <img src="images/ISLAMABAD.jpg" class="card-img-top" alt="Islamabad">
+				  <div class="card-body">
+					<h5 class="card-title">Islamabad</h5>
+				  </div>
+				</div>
+				<div class="card" style="width: 18rem;">
+				  <img src="images/Peshawar.jpg" class="card-img-top" alt="Peshawar">
+				  <div class="card-body">
+					<h5 class="card-title">Peshawar</h5>
+				  </div>
+				</div>
+			  </div>
+			</div>
+  
+			<div class="carousel-item">
+			  <div class="card-wrapper container-sm d-flex justify-content-around">
+				<div class="card" style="width: 18rem;">
+				  <img src="images/Lahore.jpg" class="card-img-top" alt="Lahore">
+				  <div class="card-body">
+					<h5 class="card-title">Lahore</h5>
+				  </div>
+				</div>
+				<div class="card" style="width: 18rem;">
+				  <img src="images/Karachi.jpg" class="card-img-top" alt="Karachi">
+				  <div class="card-body">
+					<h5 class="card-title">Karachi</h5>
+				  </div>
+				</div>
+				<div class="card" style="width: 18rem;">
+				  <img src="images/Quetta.jpg" class="card-img-top" alt="Quetta">
+				  <div class="card-body">
+					<h5 class="card-title">Quetta</h5>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+  
+  
+		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+			data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		  </button>
+		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+			data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		  </button>
+		</div>
+	  </div>
+  
+	  <div id="cityInfo" class="city-info mt-4">
+		<h3 id="cityName"></h3>
+		<p id="cityDescription"></p>
+		<iframe id="cityMap" width="100%" height="300" style="border: 0" loading="lazy"></iframe>
+		<a id="getDirectionsBtn" href="https://www.google.com/maps" target="_blank" class="btn btn-warning mt-3">Get
+		  Directions</a>
+	  </div>
+	  </div>
+	</section>
+
+    <footer class="ftco-footer ftco-section img">
+    	<div class="overlay"></div>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">About Us</h2>
+              <p>At [Shale Pizzazz], we’re dedicated to serving up delicious, high-quality pizzas made with the freshest ingredients and a passion for great flavor.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Recent Blog</h2>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-5 mb-md-5">
+             <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Services</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Cooked</a></li>
+                <li><a href="#" class="py-2 d-block">Deliver</a></li>
+                <li><a href="#" class="py-2 d-block">Quality Foods</a></li>
+                <li><a href="#" class="py-2 d-block">Mixed</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+  <script
+  src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+  crossorigin="anonymous"
+></script>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+  integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+  crossorigin="anonymous"
+></script>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+   <script>
+    const cityDirections = {
+      'Sukkur': 'https://www.google.com/maps?q=Lab-e-Mehran+Park+Sukkur',
+      'Rawalpindi': 'https://www.google.com/maps?q=Ayub+National+Park+Rawalpindi',
+      'Sialkot': 'https://www.google.com/maps?q=Iqbal+Manzil+Sialkot',
+      'Multan': 'https://www.google.com/maps?q=Shrine+of+Bahauddin+Zakariya+Multan',
+      'Islamabad': 'https://www.google.com/maps?q=Faisal+Mosque+Islamabad',
+      'Peshawar': 'https://www.google.com/maps?q=Bala+Hisar+Fort+Peshawar',
+      'Lahore': 'https://www.google.com/maps?q=Minar-e-Pakistan+Lahore',
+      'Karachi': 'https://www.google.com/maps?q=Mazar-e-Quaid+Karachi',
+      'Quetta': 'https://www.google.com/maps?q=Hanna+Lake+Quetta'
+    };
+
+    const cityData = {
+      'Sukkur': {
+        description: 'Sukkur is known for its beautiful riverside parks and cultural heritage sites.',
+        mapLink: 'https://www.google.com/maps?q=Lab-e-Mehran+Park+Sukkur',
+        mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4487.170967531921!2d67.02166607617295!3d24.867174977924943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e6b1566c46f%3A0x65318f4eb62c7aa8!2sAptech%20Computer%20Education%20Garden%20Center!5e1!3m2!1sen!2s!4v1732090210603!5m2!1sen!2s' // Replace with full embed URL
+      },
+      'Rawalpindi': {
+        description: 'Rawalpindi offers a blend of modern urban life and historical landmarks.',
+        mapLink: 'https://www.google.com/maps?q=Ayub+National+Park+Rawalpindi',
+        mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4487.170967531921!2d67.02166607617295!3d24.867174977924943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e6b1566c46f%3A0x65318f4eb62c7aa8!2sAptech%20Computer%20Education%20Garden%20Center!5e1!3m2!1sen!2s!4v1732090210603!5m2!1sen!2s'// Replace with full embed URL
+              },
+      'Sialkot': {
+        description: 'Sialkot, a hub for sports goods, also houses historic sites.',
+        mapLink: 'https://www.google.com/maps?q=Iqbal+Manzil+Sialkot',
+        mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4487.170967531921!2d67.02166607617295!3d24.867174977924943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e6b1566c46f%3A0x65318f4eb62c7aa8!2sAptech%20Computer%20Education%20Garden%20Center!5e1!3m2!1sen!2s!4v1732090210603!5m2!1sen!2s'// Replace with full embed URL
+              },
+      'Multan': {
+        description: 'Multan is famed for its ancient shrines and vibrant culture.',
+        mapLink: 'https://www.google.com/maps?q=Shrine+of+Bahauddin+Zakariya+Multan',
+        mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4487.170967531921!2d67.02166607617295!3d24.867174977924943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e6b1566c46f%3A0x65318f4eb62c7aa8!2sAptech%20Computer%20Education%20Garden%20Center!5e1!3m2!1sen!2s!4v1732090210603!5m2!1sen!2s' // Replace with full embed URL
+              },
+      'Islamabad': {
+        description: 'Islamabad, the capital, is known for its greenery and landmarks.',
+        mapLink: 'https://www.google.com/maps?q=Faisal+Mosque+Islamabad',
+        mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4487.170967531921!2d67.02166607617295!3d24.867174977924943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e6b1566c46f%3A0x65318f4eb62c7aa8!2sAptech%20Computer%20Education%20Garden%20Center!5e1!3m2!1sen!2s!4v1732090210603!5m2!1sen!2s' // Replace with full embed URL
+              },
+      'Peshawar': {
+        description: 'Peshawar is one of Pakistan’s oldest cities, rich in history.',
+        mapLink: 'https://www.google.com/maps?q=Bala+Hisar+Fort+Peshawar',
+        mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4487.170967531921!2d67.02166607617295!3d24.867174977924943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e6b1566c46f%3A0x65318f4eb62c7aa8!2sAptech%20Computer%20Education%20Garden%20Center!5e1!3m2!1sen!2s!4v1732090210603!5m2!1sen!2s' // Replace with full embed URL
+              },
+      'Lahore': {
+        description: 'Lahore is the cultural capital, known for its architecture and cuisine.',
+        mapLink: 'https://www.google.com/maps?q=Minar-e-Pakistan+Lahore',
+        mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4487.170967531921!2d67.02166607617295!3d24.867174977924943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e6b1566c46f%3A0x65318f4eb62c7aa8!2sAptech%20Computer%20Education%20Garden%20Center!5e1!3m2!1sen!2s!4v1732090210603!5m2!1sen!2s' // Replace with full embed URL
+              },
+      'Karachi': {
+        description: 'Karachi, a bustling port city, offers diverse cultural experiences.',
+        mapLink: 'https://www.google.com/maps?q=Mazar-e-Quaid+Karachi',
+        mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4487.170967531921!2d67.02166607617295!3d24.867174977924943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e6b1566c46f%3A0x65318f4eb62c7aa8!2sAptech%20Computer%20Education%20Garden%20Center!5e1!3m2!1sen!2s!4v1732090210603!5m2!1sen!2s' // Replace with full embed URL
+              },
+      'Quetta': {
+        description: 'Quetta is surrounded by rugged mountains and is known for its unique scenery.',
+        mapLink: 'https://www.google.com/maps?q=Hanna+Lake+Quetta',
+        mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4487.170967531921!2d67.02166607617295!3d24.867174977924943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e6b1566c46f%3A0x65318f4eb62c7aa8!2sAptech%20Computer%20Education%20Garden%20Center!5e1!3m2!1sen!2s!4v1732090210603!5m2!1sen!2s'// Replace with full embed URL
+              }
+    };
+
+    document.querySelectorAll('.card').forEach((card) => {
+      card.addEventListener('click', () => {
+        const cityName = card.querySelector('.card-title').textContent;
+        const cityInfo = cityData[cityName];
+
+        if (cityInfo) {
+          document.getElementById('cityName').textContent = cityName;
+          document.getElementById('cityDescription').textContent = cityInfo.description;
+          document.getElementById('cityMap').src = cityInfo.mapEmbed;
+          document.getElementById('getDirectionsBtn').href = cityInfo.mapLink;
+          document.getElementById('cityInfo').classList.add('active');
+        }
+      });
+    });
+  </script>
+  <script>
+    function searchCity() {
+      const input = document.getElementById('citySearchInput').value.trim();
+      const cityName = input.charAt(0).toUpperCase() + input.slice(1).toLowerCase(); // Capitalize the first letter
+      const cityInfo = cityData[cityName];
+
+      if (cityInfo) {
+        // Display city info and directions
+        document.getElementById('cityName').textContent = cityName;
+        document.getElementById('cityDescription').textContent = cityInfo.description;
+        document.getElementById('cityMap').src = cityInfo.mapEmbed;
+        document.getElementById('getDirectionsBtn').href = cityInfo.mapLink;
+
+        // Show city info section
+        document.getElementById('cityInfo').classList.add('active');
+      } else {
+        // Clear existing data and show an error if city not found
+        document.getElementById('cityName').textContent = "City not found";
+        document.getElementById('cityDescription').textContent = "Please enter a valid city name.";
+        document.getElementById('cityMap').src = "";
+        document.getElementById('getDirectionsBtn').href = "#";
+      }
+    }
+  </script>
+    
+  </body>
+</html>
